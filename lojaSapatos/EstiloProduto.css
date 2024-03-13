@@ -1,0 +1,92 @@
+header { 
+    position: fixed;
+    font-size: 30px;
+    display: flex; 
+    justify-content: space-around; 
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background: rgba(0, 0, 0, 0);
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 0px, rgba(0, 0, 0, 0.575) 100%);;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    text-shadow: #747474 0px 0px 1px;
+    margin-inline: 90px;
+    transition: 0.3s;
+}
+.link:hover{
+    text-shadow: #000000 0px 0px 3px;
+}
+
+body {
+    font-family: Arial;
+}
+
+.BodyM{
+    background-color: rgba(0, 17, 255, 0.048);
+}
+
+.CorM{
+    background-color: #e9f4fa1e;
+    box-shadow: 0px 0px 3px 1px rgba(37, 117, 255, 0.534);
+}
+
+.BodyF{
+    background-color: rgba(255, 0, 157, 0.055);
+}
+
+.CorF{
+    background-color: #e9f4fa1e;
+    box-shadow: 0px 0px 3px 1px rgba(255, 37, 157, 0.404);
+}
+
+.BodyI{
+    background-color: rgba(255, 0, 0, 0.055);
+}
+
+.CorI{
+    background-color: #fae9e9;
+    box-shadow: 0px 0px 3px 1px rgba(255, 37, 37, 0.589);
+}
+
+.titulo{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: #00000085 0px 0px 2px;
+    padding-top: 100px;
+}
+
+.itens{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.produto{
+    padding: 40px;
+    padding-bottom: 2px;
+    text-align: center;
+    margin: 4vh;
+    cursor: pointer;
+}
+
+.produto img {
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+p{
+ font-size: 20px;   
+}
+
+h2{
+    font-size: 30px;
+}

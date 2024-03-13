@@ -1,0 +1,84 @@
+header { 
+    position: fixed;
+    font-size: 30px;
+    display: flex; 
+    justify-content: space-around; 
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0) 0px, rgba(255, 255, 255, 0.781) 100%);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    text-shadow: #ffffff3d 0px 0px 1px;
+    margin-inline: 90px;
+    padding-left: 0;
+    font-family: arial;
+    transition: 0.3s;
+}
+.link:hover{
+    text-shadow: #000000 0px 0px 3px;
+}
+
+body { 
+    font-family: Arial;
+    background-image: url("Imagens/FundoContato.jpg");
+    background-size: 1920px 1080px;
+}
+
+form{
+    max-width: 600px;
+    max-height: fit-content;
+    margin: auto;
+    padding: 20px;
+    background: #0000001a;
+    box-shadow: 0px 0px 3px 3px #0000006c;
+    margin-bottom: 5vh;
+    background-color: #afafafb7;
+}
+
+label{
+    display: grid;
+    margin-bottom: 30px;
+    height: 100px;
+}
+
+span{
+    color: #000000;
+    font-family: Arial; 
+    font-size: 25px;
+}
+
+
+body{
+margin: 0;
+padding: 0;
+}
+
+.tituloPrincipal{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: #00000085 0px 0px 2px;
+    padding-top: 100px;
+}
+
+.botao { 
+    background-color:rgba(212, 212, 212, 0.849); 
+    width:100%;
+    padding: 15px 15px;
+    cursor:pointer; 
+    color:#000000; 
+    font-size: 25px; 
+    font-family:'arial'; 
+    text-align: center;
+    transition: 0.3s; 
+}
+
+.botao:hover { 
+    box-shadow: #000000b2 1px 1px 10px;
+}
